@@ -1,0 +1,23 @@
+img {
+    border: 3px solid transparent; /* Прозрачная рамка */
+   }
+   img:hover {
+    border: 3px solid #00af64; /* Цветная рамка */
+   }
+
+   .item{
+    width: 20px;
+    background: #ccc;
+    text-align: center;
+    margin-bottom: 10px;  
+    cursor: pointer;
+  }
+  .opt-img {
+    display: none;
+  }
+  .show{
+    display: block;
+  }
+  .active{
+    color: red;
+  }
